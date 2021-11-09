@@ -14,35 +14,35 @@ export default function Routes(): JSX.Element {
       <Switch>
         <Route
           exact
-          path={['/netflix/']}
+          path={['/showcase/netflix/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-netflix-clone" />
           )}
         />
         <Route
           exact
-          path={['/spotify/']}
+          path={['/showcase/spotify/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-spotify-clone/" />
           )}
         />
         <Route
           exact
-          path={['/twitter/']}
+          path={['/showcase/twitter/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-twitter-clone/" />
           )}
         />
         <Route
           exact
-          path={['/gmail/']}
+          path={['/showcase/gmail/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-gmail-clone/" />
           )}
         />
         <Route
           exact
-          path={['/airbnb/']}
+          path={['/showcase/airbnb/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-airbnb-clone/" />
           )}
@@ -54,32 +54,40 @@ export default function Routes(): JSX.Element {
             <IframeContainer url="https://asudbury.github.io/react-youtube-clone/" />
           )}
         />
-        <Route exact path={['/spacex/launch/:launchId']} component={Launch} />
-        <Route exact path={['/spacex/']} component={Launches} />
-        <Route exact path={['/charts/']} component={Charts} />
-        <Route exact path={['/spreadsheet/']} component={SpreadSheet} />
         <Route
           exact
-          path={['/calculator/']}
+          path={['/showcase/spacex/launch/:launchId']}
+          component={Launch}
+        />
+        <Route exact path={['/showcase/spacex/']} component={Launches} />
+        <Route exact path={['/showcase/charts/']} component={Charts} />
+        <Route
+          exact
+          path={['/showcase/spreadsheet/']}
+          component={SpreadSheet}
+        />
+        <Route
+          exact
+          path={['/showcase/calculator/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-calculator/" />
           )}
         />
         <Route
           exact
-          path={['/temperature-calculator/']}
+          path={['/showcase/temperature-calculator/']}
           component={Calculator}
         />
         <Route
           exact
-          path={['/space-invaders/']}
+          path={['/showcase/space-invaders/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/space_invaders/" />
           )}
         />
         <Route
           exact
-          path={['/fireworks/']}
+          path={['/showcase/fireworks/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/fireworks/" />
           )}

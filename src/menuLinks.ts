@@ -21,67 +21,67 @@ export default function MenuLinks() {
       icon: HomeIcon
     },
     {
-      url: '/netflix',
+      url: '/showcase/netflix',
       text: 'Netflix',
       icon: MovieFilterIcon
     },
     {
-      url: '/spotify',
+      url: '/showcase/spotify',
       text: 'Spotify',
       icon: LibraryMusicIcon
     },
     {
-      url: '/twitter',
+      url: '/showcase/twitter',
       text: 'Twitter',
       icon: TwitterIcon
     },
     {
-      url: '/gmail',
+      url: '/showcase/gmail',
       text: 'Gmail',
       icon: EmailIcon
     },
     {
-      url: '/youtube',
+      url: '/showcase/youtube',
       text: 'YouTube',
       icon: YouTubeIcon
     },
     {
-      url: '/airbnb',
+      url: '/showcase/airbnb',
       text: 'AirBnb',
       icon: HolidayVillageIcon
     },
     {
-      url: '/spaceX',
+      url: '/showcase/spaceX',
       text: 'SpaceX',
       icon: FlightTakeoffIcon
     },
     {
-      url: '/charts',
+      url: '/showcase/charts',
       text: 'Charts',
       icon: BarChartIcon
     },
     {
-      url: '/spreadsheet',
+      url: '/showcase/spreadsheet',
       text: 'SpreadSheet',
       icon: AccountBalanceIcon
     },
     {
-      url: '/calculator',
+      url: '/showcase/calculator',
       text: 'Calculator',
       icon: CalculateIcon
     },
     {
-      url: '/space-invaders',
+      url: '/showcase/space-invaders',
       text: 'Space Invaders',
       icon: WorkspacesIcon
     },
     {
-      url: '/temperature-calculator',
+      url: '/showcase/temperature-calculator',
       text: 'Temp Calc',
       icon: WbSunnyIcon
     },
     {
-      url: '/fireworks',
+      url: '/showcase/fireworks',
       text: 'Fireworks',
       icon: FlareIcon
     }
