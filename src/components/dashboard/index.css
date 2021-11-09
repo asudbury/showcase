@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+.container {
+  background-image: url(./img/world.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  transition: transform 6000ms linear;
+}
+
+.container h3 {
+  margin: 20px;
+  transition: transform 6000ms linear;
+}
+
+.container h6 {
+  margin: 20px;
+}
