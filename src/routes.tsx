@@ -14,35 +14,35 @@ export default function Routes(): JSX.Element {
       <Switch>
         <Route
           exact
-          path={['/showcase/netflix/']}
+          path={['/netflix/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-netflix-clone" />
           )}
         />
         <Route
           exact
-          path={['/showcase/spotify/']}
+          path={['/spotify/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-spotify-clone/" />
           )}
         />
         <Route
           exact
-          path={['/showcase/twitter/']}
+          path={['/twitter/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-twitter-clone/" />
           )}
         />
         <Route
           exact
-          path={['/showcase/gmail/']}
+          path={['/gmail/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-gmail-clone/" />
           )}
         />
         <Route
           exact
-          path={['/showcase/airbnb/']}
+          path={['/airbnb/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-airbnb-clone/" />
           )}
@@ -56,26 +56,26 @@ export default function Routes(): JSX.Element {
         />
         <Route
           exact
-          path={['/showcase/spacex/launch/:launchId']}
+          path={['/spacex/launch/:launchId']}
           component={Launch}
         />
-        <Route exact path={['/showcase/spacex/']} component={Launches} />
-        <Route exact path={['/showcase/charts/']} component={Charts} />
+        <Route exact path={['/spacex/']} component={Launches} />
+        <Route exact path={['/charts/']} component={Charts} />
         <Route
           exact
-          path={['/showcase/spreadsheet/']}
+          path={['/spreadsheet/']}
           component={SpreadSheet}
         />
         <Route
           exact
-          path={['/showcase/calculator/']}
+          path={['/calculator/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/react-calculator/" />
           )}
         />
         <Route
           exact
-          path={['/showcase/temperature-calculator/']}
+          path={['/temperature-calculator/']}
           component={Calculator}
         />
         <Route
