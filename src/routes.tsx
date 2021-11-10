@@ -54,18 +54,10 @@ export default function Routes(): JSX.Element {
             <IframeContainer url="https://asudbury.github.io/react-youtube-clone/" />
           )}
         />
-        <Route
-          exact
-          path={['/spacex/launch/:launchId']}
-          component={Launch}
-        />
+        <Route exact path={['/spacex/launch/:launchId']} component={Launch} />
         <Route exact path={['/spacex/']} component={Launches} />
         <Route exact path={['/charts/']} component={Charts} />
-        <Route
-          exact
-          path={['/spreadsheet/']}
-          component={SpreadSheet}
-        />
+        <Route exact path={['/spreadsheet/']} component={SpreadSheet} />
         <Route
           exact
           path={['/calculator/']}
@@ -80,14 +72,14 @@ export default function Routes(): JSX.Element {
         />
         <Route
           exact
-          path={['/showcase/space-invaders/']}
+          path={['/space-invaders/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/space_invaders/" />
           )}
         />
         <Route
           exact
-          path={['/showcase/fireworks/']}
+          path={['/fireworks/']}
           render={() => (
             <IframeContainer url="https://asudbury.github.io/fireworks/" />
           )}
