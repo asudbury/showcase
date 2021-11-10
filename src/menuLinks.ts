@@ -16,32 +16,32 @@ import WorkspacesIcon from '@mui/icons-material/Workspaces';
 export default function MenuLinks() {
   return [
     {
-      url: '/',
+      url: '/showcase/',
       text: 'Home',
       icon: HomeIcon
     },
     {
-      url: '/showcase/netflix',
+      url: '/showcase/netflix/',
       text: 'Netflix',
       icon: MovieFilterIcon
     },
     {
-      url: '/showcase/spotify',
+      url: '/showcase/spotify/',
       text: 'Spotify',
       icon: LibraryMusicIcon
     },
     {
-      url: '/showcase/twitter',
+      url: '/showcase/twitter/',
       text: 'Twitter',
       icon: TwitterIcon
     },
     {
-      url: '/showcase/gmail',
+      url: '/showcase/gmail/',
       text: 'Gmail',
       icon: EmailIcon
     },
     {
-      url: '/showcase/youtube',
+      url: '/showcase/youtube/',
       text: 'YouTube',
       icon: YouTubeIcon
     },
@@ -51,12 +51,12 @@ export default function MenuLinks() {
       icon: HolidayVillageIcon
     },
     {
-      url: '/showcase/spaceX',
+      url: '/showcase/spaceX/',
       text: 'SpaceX',
       icon: FlightTakeoffIcon
     },
     {
-      url: '/showcase/charts',
+      url: '/showcase/charts/',
       text: 'Charts',
       icon: BarChartIcon
     },
@@ -66,22 +66,22 @@ export default function MenuLinks() {
       icon: AccountBalanceIcon
     },
     {
-      url: '/showcase/calculator',
+      url: '/showcase/calculator/',
       text: 'Calculator',
       icon: CalculateIcon
     },
     {
-      url: '/showcase/space-invaders',
+      url: '/showcase/space-invaders/',
       text: 'Space Invaders',
       icon: WorkspacesIcon
     },
     {
-      url: '/showcase/temperature-calculator',
+      url: '/showcase/temperature-calculator/',
       text: 'Temp Calc',
       icon: WbSunnyIcon
     },
     {
-      url: '/showcase/fireworks',
+      url: '/showcase/fireworks/',
       text: 'Fireworks',
       icon: FlareIcon
     }
