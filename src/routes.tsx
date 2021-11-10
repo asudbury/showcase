@@ -10,7 +10,7 @@ import IframeContainer from './components/iframe/iframeContainer';
 
 export default function Routes(): JSX.Element {
   return (
-    <Router>
+    <Router basename="/showcase">
       <Switch>
         <Route
           exact
