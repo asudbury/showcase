@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Dashboard from './components/dashboard';
-import Launches from './components/spacex/launches';
-import Launch from './components/spacex/launch';
 import Calculator from './components/temperature-calculator';
 import Charts from './components/charts/Charts';
 import SpreadSheet from './components/spreadsheet/spreadsheet';
@@ -54,8 +52,13 @@ export default function Routes(): JSX.Element {
             <IframeContainer url="https://asudbury.github.io/react-youtube-clone/" />
           )}
         />
-        <Route exact path={['/spacex/launch/:launchId']} component={Launch} />
-        <Route exact path={['/spacex/']} component={Launches} />
+        <Route
+          exact
+          path={['/spacex/']}
+          render={() => (
+            <IframeContainer url="https://asudbury.github.io/spacex-launches/" />
+          )}
+        />
         <Route exact path={['/charts/']} component={Charts} />
         <Route exact path={['/spreadsheet/']} component={SpreadSheet} />
         <Route
