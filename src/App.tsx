@@ -10,8 +10,6 @@ import {
 import { OverridableComponent } from '@mui/material/OverridableComponent';
 import createStyles from '@mui/styles/createStyles';
 import makeStyles from '@mui/styles/makeStyles';
-import { Provider } from 'react-redux';
-import store from './redux/store';
 import Routes from './routes';
 import ListItemLink from './components/core/listItemLink';
 import MenuLinks from './menuLinks';
@@ -40,36 +38,34 @@ function App(): JSX.Element {
   const classes = useStyles();
 
   return (
-    <Provider store={store}>
-      <StyledEngineProvider injectFirst>
-        <div className={classes.root}>
-          <CssBaseline />
-          <Drawer className={classes.drawer} variant="permanent" anchor="left">
-            <div className={classes.drawer}>
-              <List dense disablePadding>
-                {MenuLinks().map(
-                  (item: {
-                    url: string;
-                    text: string;
-                    icon: OverridableComponent<SvgIconTypeMap<{}, 'svg'>>;
-                  }) => (
-                    <ListItemLink
-                      key={item.url}
-                      url={item.url}
-                      text={item.text}
-                      icon={<item.icon fontSize="small" />}
-                    />
-                  )
-                )}
-              </List>
-            </div>
-          </Drawer>
-          <main className={classes.content}>
-            <Routes />
-          </main>
-        </div>
-      </StyledEngineProvider>
-    </Provider>
+    <StyledEngineProvider injectFirst>
+      <div className={classes.root}>
+        <CssBaseline />
+        <Drawer className={classes.drawer} variant="permanent" anchor="left">
+          <div className={classes.drawer}>
+            <List dense disablePadding>
+              {MenuLinks().map(
+                (item: {
+                  url: string;
+                  text: string;
+                  icon: OverridableComponent<SvgIconTypeMap<{}, 'svg'>>;
+                }) => (
+                  <ListItemLink
+                    key={item.url}
+                    url={item.url}
+                    text={item.text}
+                    icon={<item.icon fontSize="small" />}
+                  />
+                )
+              )}
+            </List>
+          </div>
+        </Drawer>
+        <main className={classes.content}>
+          <Routes />
+        </main>
+      </div>
+    </StyledEngineProvider>
   );
 }
 
