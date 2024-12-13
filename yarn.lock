@@ -2633,10 +2633,10 @@
     clsx "^2.0.0"
     prop-types "^15.8.1"
 
-"@mui/core-downloads-tracker@^5.16.8":
-  version "5.16.8"
-  resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.16.8.tgz#b83316d14dad08fac7cd0574f2643b01959b4464"
-  integrity sha512-DARxShbBsWz6azwkTmv05rR7rJfcd9cXFsQtbcr24A+5esQBSnK2N3cbg/izlvuMGxonfWaysz/ae+6Ij9RAHQ==
+"@mui/core-downloads-tracker@^5.16.11":
+  version "5.16.11"
+  resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.16.11.tgz#0295ae13eeb449a87939fadf029e3382b0b9a802"
+  integrity sha512-2eVDGg9OvIXNRmfDUQyKYH+jNcjdv1JkCH5F2YDgUye5fMX5nxGiYHAUe1BXaXyDMaLSwXC7LRksEKMiIQsFdw==
 
 "@mui/icons-material@^5.16.8":
   version "5.16.8"
@@ -2659,13 +2659,13 @@
     clsx "^2.0.0"
     prop-types "^15.8.1"
 
-"@mui/material@^5.16.8":
-  version "5.16.8"
-  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.16.8.tgz#cf6a3784910fae05cbcd0a871eaca2821639d867"
-  integrity sha512-amnDx385shdQasC7wAk/oQjfti8N4wm0fLEcD7n5KXDZxn9Y+0VKEC+ieVseOUGuY5B2FqzdNfeVwUPTmUBszQ==
+"@mui/material@^5.16.11":
+  version "5.16.11"
+  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.16.11.tgz#e7e6db021f027103e32cadea78d8bde3c13f2be5"
+  integrity sha512-uoc67oecKdnVKaMHBVE433YrMuxQs22xY5nIjRb5sAPB+GaeZQWp8brQ3/adeH6k2IDa8+9i2IVd4fNLuvHSvA==
   dependencies:
     "@babel/runtime" "^7.23.9"
-    "@mui/core-downloads-tracker" "^5.16.8"
+    "@mui/core-downloads-tracker" "^5.16.11"
     "@mui/system" "^5.16.8"
     "@mui/types" "^7.2.15"
     "@mui/utils" "^5.16.8"
