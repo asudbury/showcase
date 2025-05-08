@@ -34,7 +34,7 @@
     "react-scripts": "5.0.1",
     "react-spreadsheet": "^0.10.1",
     "typescript": "^5.8.3",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
